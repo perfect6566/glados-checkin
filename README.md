@@ -18,13 +18,11 @@ README.md                   # 你正在看的这份说明
 
 ### 1. 拿个账号
 
-已经有号的跳过。没有号的话打开 <https://glados.network> 注册一个。
+已经有号的跳过。没有号的话点我的邀请链接注册,新用户多得 14 天:
 
-顺手分享下我的邀请信息,注册下单能用上:
+<https://glados.space/landing/BCMRD-FM8H2-ECUCT-MGCU7>
 
-- 邀请码:`BCMRD-FM8H2-ECUCT-MGCU7`(新用户多得 14 天)
-- 注册直达:<https://glados.space/landing/BCMRD-FM8H2-ECUCT-MGCU7>
-- 下单优惠码:`MESSI`(9 折)
+下单时再填优惠码 `MESSI` 打 9 折。
 
 ### 2. 抓一次 Cookie
 
@@ -39,16 +37,9 @@ README.md                   # 你正在看的这份说明
 
 ## 放到 GitHub 上每天自动跑
 
-### 1. 上传代码
+### 1. Fork 本仓库
 
-```powershell
-cd e:\pythonproject\AIWorld\gladosVPN-AutoCheckin
-git init
-git add checkin.py requirements.txt .github/workflows/gladosCheck.yml README.md
-git commit -m "add glados auto checkin"
-git remote add origin https://github.com/你的用户名/glados-checkin.git
-git push -u origin main
-```
+打开 [perfect6566/glados-checkin](https://github.com/perfect6566/glados-checkin) 点右上角 `Fork`,选你自己的账号,就有了个一模一样的仓库,后面都在你 Fork 出来的仓库里操作,不用敲 git 命令。
 
 记住 Cookie 别写进代码,只放到下面说的 Secret 里。
 
